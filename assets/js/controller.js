@@ -14,7 +14,6 @@ const images = [
         img: "./assets/img/Prueba1.jpg",
         titulo: "prueba 1",
         subtitulo: "prueba 1",
-        crossOriginIsolated:true
     },
     {
         img: "./assets/img/Prueba2.jpg",
