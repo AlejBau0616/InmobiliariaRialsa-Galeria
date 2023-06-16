@@ -1,0 +1,36 @@
+.pagination{
+    display: flex;
+}
+
+.navigation__page{
+    display: flex;
+    margin: 0 2rem;
+    border: 1px solid;
+    flex-wrap: wrap;
+}
+
+.item__page{
+    padding: 1rem;
+    border: 1px solid;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.button{
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.show{
+    opacity: 1;
+    z-index: 90;
+    transition: 2000ms;
+}
+
+.button:hover, .item__page:hover, .active{
+    background-color: #0044FF;
+    color: #fafafa;
+    transition: 300ms;
+}

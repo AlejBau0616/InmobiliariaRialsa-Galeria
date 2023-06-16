@@ -1,0 +1,55 @@
+<div class="item">
+                        <div class="work__overlay">
+                            <img src="./assets/img/Prueba1.jpg" alt="pruebas de imagenes">
+                        </div>
+                        <div class="work__content">
+                            <h2 class="title">Prueba Titulo</h2>
+                            <p class="subtitle">Prueba Subtitulo</p>
+                        </div>
+                        <a href="#" class="link__item link__img"></a>
+                    </div>
+    
+                    <div class="item">
+                        <div class="work__overlay">
+                            <img src="./assets/img/Prueba2.jpg" alt="pruebas de imagenes">
+                        </div>
+                        <div class="work__content">
+                            <h2 class="title">Prueba Titulo</h2>
+                            <p class="subtitle">Prueba Subtitulo</p>
+                        </div>
+                        <a href="#" class="link__item link__img"></a>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="work__overlay">
+                            <img src="./assets/img/Prueba3.jpg" alt="pruebas de imagenes">
+                        </div>
+                        <div class="work__content">
+                            <h2 class="title">Prueba Titulo</h2>
+                            <p class="subtitle">Prueba Subtitulo</p>
+                        </div>
+                        <a href="#" class="link__item link__img"></a>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="work__overlay">
+                            <img src="./assets/img/Prueba4.jpg" alt="pruebas de imagenes">
+                        </div>
+                        <div class="work__content">
+                            <h2 class="title">Prueba Titulo</h2>
+                            <p class="subtitle">Prueba Subtitulo</p>
+                        </div>
+                        <a href="#" class="link__item link__img"></a>
+                    </div>
+                    
+                    <div class="item">
+                        <div class="work__overlay">
+                            <img src="./assets/img/Prueba5.jpg" alt="pruebas de imagenes">
+                        </div>
+                        <div class="work__content">
+                            <h2 class="title">Prueba Titulo</h2>
+                            <p class="subtitle">Prueba Subtitulo</p>
+                        </div>
+
+
+itemPagination= <li class="item__page">1</li>

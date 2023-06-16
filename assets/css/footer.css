@@ -1,0 +1,76 @@
+footer{
+    background-color: #f3f3f3;
+}
+
+.text__footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__text{
+    width: 30%;
+}
+
+.card__text .title{
+    font-size: 2em;
+}
+
+.card__text .info{
+    text-align: justify;
+    font-weight: 300;
+    line-height: 1.3rem;
+}
+
+.card__text .info li{
+    margin: 0.5rem 0;
+    font-weight: bold;
+    color: #0044FF;
+}
+
+.link__item:hover{
+    color: #0044FF;
+}
+
+.contato__footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__footer{
+    margin: 2rem 0;
+    justify-content: center;
+    display: flex;
+}
+
+.nav__footer li{
+    margin: 0 1rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.icons li{
+    width: 2rem;
+    margin: 0 1.5rem;
+}
+
+.copy__right{
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0;
+    border-top: 1px solid #ddd;
+}
+
+
+@media (max-width: 480px) {
+    .text__footer{
+        flex-direction: column;
+    }
+
+    .card__text{
+        width: 100%;
+    }
+}

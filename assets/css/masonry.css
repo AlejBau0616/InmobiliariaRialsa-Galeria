@@ -1,0 +1,149 @@
+.top{
+    margin-top: 10rem;
+}
+
+.slider--shadow{
+    opacity: 1;
+}
+
+.slider{
+    position: relative;
+    height: 1800px;
+}
+
+.masonry{
+    position: absolute;
+    opacity: 0;
+}
+
+.masonry .info{
+    padding: 0 2rem;
+    border-left: 3px solid #0044FF;
+}
+
+.title{
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.text{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.masonry .masonry__grid{
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header auto";
+    gap: 0.3rem;
+}
+
+.masonry__grid .item{
+    position: relative;
+}
+
+.masonry__grid .item .work__overlay{
+    width: 100%;
+    height: 100%;
+}
+
+.masonry__grid .item .work__overlay img{
+    height: 400px;
+    object-fit: cover;
+}
+
+.masonry__grid .item .work__content{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    transition-duration: .4s;
+    transition-delay: 0.2;
+}
+
+.masonry__grid .item:first-child{
+    grid-area: header;
+}
+
+.masonry__grid .item:hover .work__content{
+    opacity: 1;
+}
+
+.work__content .title{
+    width: 100%;
+    color: #fafafa;
+}
+
+.work__content .subtitle{
+    width: 100%;
+    color: #fafafa;
+}
+
+.link__img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (max-width: 850px) {
+    .masonry .masonry__grid{
+        grid-template-columns: 1fr;
+        grid-template-areas: none;
+        position: relative;
+    }
+    
+    .masonry__grid .item:first-child{
+        grid-area: auto;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 850px){
+    .masonry .masonry__grid{
+        width: 50%;
+    }
+
+    .masonry__grid .item:nth-child(2n){
+        position: absolute;
+        left: 102%;
+        width: 100%;
+    }
+
+    .masonry__grid .item:nth-child(2n) .work__overlay img{
+        height: 375px;
+    }
+
+    .masonry__grid .item:nth-child(4){
+        top: 50%;
+    }
+
+    .masonry__grid .item .work__overlay img{
+        height: 250px;
+    }
+
+    .slider{
+        height: 1950px;
+    }
+}
+
+@media (max-width: 480px){
+    .masonry__grid .item .work__overlay img{
+        height: 190px;
+    }
+
+    .slider{
+        height: 2250px;
+    }
+}
